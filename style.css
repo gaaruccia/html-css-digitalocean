@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+[class*="col-"]{
+  float: left;
+}
 .row::after{
   content: "";
   display: table;
@@ -12,25 +15,76 @@
   max-width: 1170px;
   margin: 0 auto;
   padding: 24px;
-  position: relative;
 }
 nav{
   position: fixed;
   width: 100%;
   z-index: 999;
 }
+.background{
+  background-color: white;
+}
 ul{
   list-style: none;
-  position: fixed;
 }
-li{
-  float: left;
+nav ul li{
   display: inline-block;
   padding-left: 12px;
   padding-top: 16px;
 }
-/*debug*/
-section{
-  height: 144px;
-  border: solid black 3px;
+.paddingnav{
+  padding-top: 12px;
+}
+.button1{
+  background-color: white;
+  color: blue;
+  border-radius: 12px;
+  padding: 12px;
+}
+.distanza{
+  padding-top: 144px;
+}
+.background2{
+  height: 815px;
+  background-image:url(img/home.jpg);
+}
+.paddingh1{
+  padding-top: 144px;
+}
+h1{
+  color: white;
+  font-size: 72px;
+}
+.distanza .conteiner .row .col-lg-6{
+  color: white;
+}
+h3{
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+h4{
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+}
+.button2{
+  width: 100%;
+  background-color: blue;
+  padding: 12px;
+}
+.button2 span{
+  color: white;
+}
+.button3{
+  width: 100%;
+  background-color: white;
+  padding: 12px;
+}
+.button3 span{
+  color: black;
+}
+.row .col-lg-12 p{
+  text-align: center;
+  color: black;
 }
