@@ -200,7 +200,7 @@ ul ol{
   padding-top: 24px;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 719px){
+@media screen and (max-width: 767px){
   img{
     max-width: 100%;
   }
@@ -211,8 +211,14 @@ ul ol{
     display: none;
   }
 }
-@media screen and (min-width: 720px) and (max-width: 959px){
+@media screen and (min-width: 768px) and (max-width: 992px){
   img{
     max-width: 80%;
+  }
+  .row .col-lg-offset-1 i{
+    display: none;
+  }
+  .row .col-lg-1 i{
+    display: none;
   }
 }
