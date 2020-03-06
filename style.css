@@ -45,7 +45,7 @@ nav ul li{
   padding-top: 144px;
 }
 .background2{
-  height: 815px;
+  height: 100%;
   background-image:url(img/home.jpg);
 }
 .paddingh1{
@@ -122,6 +122,9 @@ h2{
   text-align: left;
   color: #031b4e;
 }
+.sinistra img{
+  padding-top: 24px;
+}
 .sinistra p{
   text-align: left;
   color: grey;
@@ -139,4 +142,77 @@ ul ol{
   opacity: 1;
   display: inline-block;
   padding-right: 12px;
+}
+.background4{
+  background-color: #063c94;
+}
+.background4 .bianco h2{
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.background4 .row ul li{
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid white;
+}
+.background4 .row ul li span{
+  padding-left: 24px;
+}
+.background4 .row ul li a{
+  color: #055ded;
+  float: right;
+}
+.backgroundbianco div{
+  padding-bottom: 24px;
+}
+.row .centratura i{
+  padding-top: 96px;
+}
+.background5{
+  height: 264px;
+  background-image:url(img/home.jpg);
+}
+.background5 .bianco h2{
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.background6{
+  background: #0545ab;
+}
+.background6 span{
+  color: white;
+  text-align: center;
+}
+.background6 i{
+  color: white;
+  text-align: center;
+}
+.background6 ul li h4{
+  color: white;
+  text-align: center;
+}
+.background6 ul li{
+  color: white;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+@media screen and (max-width: 749px){
+  img{
+    max-width: 100%;
+  }
+  .row .col-lg-offset-1 i{
+    display: none;
+  }
+  .row .col-lg-1 i{
+    display: none;
+  }
+}
+@@media screen and (min-width:750px) and (max-width:970px) {
+  .row .col-lg-1 i{
+    display: none;
+  }
 }
